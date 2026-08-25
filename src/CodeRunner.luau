@@ -70,10 +70,7 @@ CodeRunner.RunCode = function(CodeTable: any)
 				local varible_name = blockData.blockSaves.Varible_name
 				local varible_value = blockData.blockSaves.Varible_value
 				
-				print("Try change")
-				
 				if codesEnvironment["Varibles"][varible_name] then
-					print("changed")
 					codesEnvironment["Varibles"][varible_name] = varible_value
 				else
 					codesEnvironment["Varibles"][varible_name] = varible_value
